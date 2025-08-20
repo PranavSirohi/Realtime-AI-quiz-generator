@@ -15,20 +15,12 @@
 - [📸 Screenshots](#-screenshots)
 - [🛫 Deploying](#-deploying)
 - [⚙️ Build Instructions](#-build-instructions)
-- [🧾 License](#-license)
 
 ## 🌟 Introduction 
 
-Welcome to Quizler, an enhanced iteration of the original [Quizler](https://github.com/jacobtread/Quizler-v1) project. It's designed to be a real-time quiz application similar to [Kahoot](https://kahoot.com/), with a focus on being open-source and playable offline over LAN or self-hosted environments.
+An **interactive, real-time multiplayer quiz platform** powered by **AI**.  
+Built to create fun, engaging, and intelligent quizzes for classrooms, events, or online learning.  
 
-## 📥 Downloads
-
-Prebuilt binaries are available for download:
-
-| Platform | Link                                                                                           |
-| -------- | ---------------------------------------------------------------------------------------------- |
-| Windows  | [Download](https://github.com/jacobtread/Quizler/releases/latest/download/quizler-windows.exe) |
-| Linux    | [Download](https://github.com/jacobtread/Quizler/releases/latest/download/quizler-linux)       |
 
 ## ✨ Features
 
@@ -66,16 +58,10 @@ For joining a quiz.
 
 ![Join Screen](assets/join.png)
 
-## 🛫 Deploying
-
-Easily deploy Quizler to [Render](https://render.com) using the provided guide in the Wiki [Here](https://github.com/jacobtread/Quizler/wiki/Deploying-to-Render). Additionally, it can be deployed to other services that support deploying docker images by using the provided `jacobtread/quizler` docker image or the `Dockerfile` in the repository.
 
 ## ⚙️ Build Instructions
 
 Building Quizler requires NodeJS (>=16) for the frontend and Cargo/Rust (>=1.75.0) for the backend:
-
-> **Note** 
-> These commands are from within the context of the repository directory. If you haven't already download the repository and cd to the directory before running the commands below
 
 1. **Frontend**:
     ```shell
@@ -97,31 +83,9 @@ Building Quizler requires NodeJS (>=16) for the frontend and Cargo/Rust (>=1.75.
     cargo build --release
     ```
 
-After building the backend, find the binary at `backend/target/release/quizler[.exe]`.
-
 For Docker-based builds, refer to the provided `Build.Dockerfile` in the repository, there is also
 a docker image for pre-built binaries at `Dockerfile`.
 
-## 🧾 License
 
-MIT License
-
-Copyright (c) 2023 - 2024 Jacobtread
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
