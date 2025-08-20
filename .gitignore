@@ -1,0 +1,4 @@
+.release
+build.nu
+/scripts
+/node_modules
