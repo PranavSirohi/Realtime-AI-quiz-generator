@@ -1,19 +1,14 @@
 <img src="assets/logo.svg" width="100%" height="80px">
 
-# Quizler
+# REALTIME AI QUIZ GENERATOR
 
-![License](https://img.shields.io/github/license/jacobtread/Quizler?style=for-the-badge)
-![Build](https://img.shields.io/github/actions/workflow/status/jacobtread/Quizler/build.yml?style=for-the-badge)
 
 > Real time quiz application
 
 ## 📜 Table of Contents
 
 - [🌟 Introduction](#-introduction)
-- [📥 Downloads](#-downloads)
 - [✨ Features](#-features)
-- [📸 Screenshots](#-screenshots)
-- [🛫 Deploying](#-deploying)
 - [⚙️ Build Instructions](#-build-instructions)
 
 ## 🌟 Introduction 
@@ -37,6 +32,7 @@ Built to create fun, engaging, and intelligent quizzes for classrooms, events, o
 - **Containerized**: Run Quizler as a standalone executable or within a Docker container using the `jacobtread/quizler` container image. Example `docker-compose.yml` provided.
 - **Short and Shareable Codes**: Quiz codes consist of short 5-character tokens (e.g., AZ2ES), making sharing easy.
 - **Cross-Platform**: Server runs on both Windows and Linux, accessible from any device with a web browser.
+
 
 ## ⚙️ Build Instructions
 
