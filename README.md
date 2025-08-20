@@ -1,7 +1,4 @@
-<img src="assets/logo.svg" width="100%" height="80px">
-
 # REALTIME AI QUIZ GENERATOR
-
 
 > Real time quiz application
 
