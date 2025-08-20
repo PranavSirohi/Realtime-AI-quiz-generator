@@ -38,27 +38,6 @@ Built to create fun, engaging, and intelligent quizzes for classrooms, events, o
 - **Short and Shareable Codes**: Quiz codes consist of short 5-character tokens (e.g., AZ2ES), making sharing easy.
 - **Cross-Platform**: Server runs on both Windows and Linux, accessible from any device with a web browser.
 
-## 📸 Screenshots
-
-### Home screen
-
-Allows users to select between joining a quiz and creating their own.
-
-![Home Screen](assets/home.png)
-
-### Create screen
-
-For creating a new quiz.
-
-![Create Screen](assets/create.png)
-
-### Join screen
-
-For joining a quiz.
-
-![Join Screen](assets/join.png)
-
-
 ## ⚙️ Build Instructions
 
 Building Quizler requires NodeJS (>=16) for the frontend and Cargo/Rust (>=1.75.0) for the backend:
